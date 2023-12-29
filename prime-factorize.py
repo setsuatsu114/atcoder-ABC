@@ -13,7 +13,7 @@ def prime_factorize(n):
             a.append(i)
             n //= i
         else:
-            i += 1
+            i += 2
         if n==1:
             break
     return a
