@@ -19,3 +19,5 @@ is_prime, table = is_prime(N)
 # print('is_prime', is_prime)
 # print(table)
 print(len(table)-1) if table[-1]==N else print(len(table))
+
+
